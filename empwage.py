@@ -83,6 +83,5 @@ class EmployeeWage:
         return jsonify({'new_data': new_data})
 
 
-
 if __name__ == '__main__':
     app.run(port= 7500, debug= True)
